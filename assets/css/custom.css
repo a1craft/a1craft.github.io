@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+body{ color: #333333; }
+h1{ font-size: 2rem; color: #041a2e; }
+.section-shaped .shape-default{ background: linear-gradient(150deg, #08355c 15%, #062846 70%, #041a2e 94%) }
+.section-shaped .shape-default :nth-child(1){ background: #062846;  }
+.section-shaped .shape-default :nth-child(2){ background: #08345b;  }
+.section-shaped .shape-default :nth-child(3){ background: #062846;  }
+.section-shaped .shape-default :nth-child(4){ background: #f4f400;  }
+.section-shaped .shape-default :nth-child(5){ background: #f4f400;  }
+
+
+/*Footer*/
+.footer{ background: #062846; color: #FFFFFF; }
+.footer h5{ color: #FFFFFF; }
+.footer .text-primary{ color: #FFFFFF !important; }
+.footer a{ color: #f4f400; }
+.footer a:hover{ text-decoration: underline; }
+hr{ border-top: 0.0625rem solid rgba(0, 0, 0, 0.5) }
